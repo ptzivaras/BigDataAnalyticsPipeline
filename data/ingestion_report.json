@@ -1,0 +1,50 @@
+{
+  "input_file": "data/Customer_Behavior.csv",
+  "output_file": "data/final_dataset.csv",
+  "rows": {
+    "kaggle_loaded": 350,
+    "kaggle_after_preprocess": 350,
+    "generated": 500000,
+    "final": 500350
+  },
+  "preprocess": {
+    "rows_before": 350,
+    "rows_after": 350,
+    "duplicates_removed": 0,
+    "rows_removed_missing_critical": 0
+  },
+  "validation": {
+    "missing_columns": [],
+    "null_counts": {
+      "Satisfaction Level": 2
+    },
+    "duplicate_rows": 0,
+    "out_of_range_counts": {
+      "Age": 0,
+      "Total Spend": 0,
+      "Items Purchased": 0,
+      "Average Rating": 0,
+      "Days Since Last Purchase": 0
+    },
+    "unexpected_values": {
+      "Gender": [],
+      "City": [],
+      "Membership Type": [],
+      "Satisfaction Level": []
+    }
+  },
+  "schema_dtypes": {
+    "Customer ID": "Int64",
+    "Gender": "string",
+    "Age": "Int64",
+    "City": "string",
+    "Membership Type": "string",
+    "Total Spend": "float64",
+    "Items Purchased": "Int64",
+    "Average Rating": "float64",
+    "Discount Applied": "boolean",
+    "Days Since Last Purchase": "Int64",
+    "Satisfaction Level": "string",
+    "data_source": "string"
+  }
+}
