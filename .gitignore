@@ -1,0 +1,19 @@
+# Python caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated data artifacts
+data/final_dataset.csv
+data/processing/
+
+# Local/raw archive data (not part of source)
+data/archive/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
